@@ -271,22 +271,17 @@ article{
 .courses-alignment{
    
     display: grid;
-    grid-template-columns:1fr 1fr;
-  grid-template-rows: repeat(2,1fr);
+    grid-template-columns: 1fr;
+  grid-template-rows: repeat(3,1fr);
   margin-right: 0px;
     
 }
-.half-width{
-    
-   /* width: 40%; */
-}
 .course-2{
-    margin-right: 0px;
-    margin-left: 15px;
+    margin-left: 2px;
 }
 
 .course-4{
-    display: block;
+    display: none;
     margin-left: 18px;
 }
 .course-1 img,.course-2 img,.course-3 img,.course-4  img{
@@ -296,10 +291,18 @@ article{
 .course-1-heading,.course-2-heading,.course-3-heading,.course-4-heading{
     font-size: 12px;
 }
-.article-2{
-    margin-right: 30px;
+
+.blog-heading{
+    margin-left: 40px;
 }
-.article-4{
-    margin-right: 100px;
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: center; */
 }
+.blog-image{
+    margin-left: 10px;
+}
+
 }
